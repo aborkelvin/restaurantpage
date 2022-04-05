@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <style>
+        body{
+            background-color: rgb(189, 209, 207);
+            margin: -5px 0 0 -5px;
+        }
+        h1{
+            color: rgb(24, 1, 21);
+            font-size: 70px;
+            margin: 0;
+            
+        }
+        p{
+            font-size: larger;
+        }
+        img{
+            float: left;
+            display: inline-block;
+            height: 800px;
+            width: 50vw;
+            opacity: 1;
+            margin-right: 20px;
+        }
+        #content{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        li{
+            display: inline-block;
+            font-size: larger;
+            margin:0;
+            padding: 20px 100px 20px 80px;
+            height: 100%;
+        }
+        li:hover{
+            background-color: teal;
+            cursor: pointer;
+        }
+        ul{
+            list-style-type: none;
+            background-color: #dddddd;
+            padding: 0px;
+            margin: 0;
+        }
+        nav{
+            position: relative;
+            top: 0;
+        }
+        .menubox{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .menulist{
+            width: 300px;
+            height: 200px;
+            background-color: #dddddd;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="homebtn">Home</li>
+            <li class="menubtn">Menu</li>
+            <li class="contactbtn">Contact</li>
+        </ul>
+    </nav>
+    <div id="content"></div>
+</body>
+</html>
